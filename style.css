@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.container{
+
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+h1{
+    color: blue;
+    font-size: 20px;
+}
+
+body{  
+    background-color: #26a008;
+    color: #07d400;
+    font: 900 16px 'Roboto', sans-serif;
+
+}
+
+.list li{
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 5px;
+}
+
+.card{
+    border: 2px solid rgb(15, 5, 104);
+    margin: 15px 0;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #b6bb77;
+}
+
+.card img{
+    box-shadow:  4px 4px 14px rgba(255, 0, 0, 0.5);
+    border-radius: 15%;
+}
+
+ul, ol{
+    margin-left: 60px;
+}
+
+.abtn{
+    margin: 0 auto;
+    background-color: brown;
+    border-radius: 15px;
+    padding: 10px;
+    border: 10px solid yellow;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #d8f007;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+    color: aqua;
+}
+
+.btn{
+    border: none;
+    padding: 10px;
+    background-color: #0151ac;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.btn:hover{
+    background-color: #07d400;
+}
+
+.list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.table{
+    background-color: beige;
+    width: 100%;
+    
+}
+
+.table td{
+    text-align: center;
+    padding: 5px;
+}
+
+.table td:hover{
+    background-color: #970808;
+}
+
+.table td:nth-child(2){
+    background-color: #2b07ca;
+}
+
+.table tr:nth-child(2){
+    background-color: #3f3277;
+}
+
+nav{
+    background-color: crimson;
+    margin: 10px 0;
+}
+
+nav > ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav li{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+nav li:hover{
+    background-color: cyan;
+}
+
+@media (max-width: 650px) {
+    .card img{
+        box-shadow:  4px 4px 14px rgba(255, 0, 0, 0.5);
+        border-radius: 15%;
+        width: 50%;
+    }
+}

@@ -7,77 +7,178 @@
     <meta name="description" content="Вводная часть курса по HTML & CSS">
     <meta name="keywords" content="html, course, keywords, img">
     <title>Сайт по курсу</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
-    <h1>Меня зовут Глеб</h1>
-    <img src="images.png" alt="Skeleton image" width="500">
-
-    <hr>
-
-    <p>Мои навыки:</p>
-    <ul>
-        <li>Рисовать</li>
-        <li>Тренироваться</li>
-    </ul>
-    <p>Мои черты:</p>
-    <ol>
-        <li>Тихий</li>
-        <li>Спокойный</li>
-    </ol>
-
-    <hr>
-
-    <p>В данном курсе повышаю свои <strong>практические навыки</strong>, путем <em>большого количества работ</em></p>
-    <a href="https://vk.com/privetmint" target="_blank">VK</a>
-
-    <hr>
-
-    <table border="2">
-        <thead>
-            <tr>
-                <th>Название работы </th>
-                <th>Должность</th>
-                <th>Период работы</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Кротостроительсвто </td>
-                <td>Главный крот</td>
-                <td>2 года</td>
-            </tr>
-            <tr>
-                <td>Градостроительство</td>
-                <td>Главный град</td>
-                <td>1 год</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <br>
-
-    <p>
-    <h2>Связаться со мной</h2>
-    </p>
-    <form action="server">
-        <div>
-            <label for="text1">Ваше имя: </label>
-            <input type="text" id="text1" placeholder="Введите имя">
-        </div>
-        <div>
-            <label for="email1">Ваше email: </label>
-            <input type="email" id="email1" placeholder="Введите email">
-        </div>
-        <div>
-            <label for="message">Ваше сообщение: </label>
-            <br>
-            <textarea id="message"></textarea>
+    <div class="container">
+        <div class="card">
+            <h1>Меня зовут Глеб</h1>
+            <img src="images.png" alt="Skeleton image" width="500">
         </div>
 
-        <input type="submit" value="Отправить">
-        <button type="submit">Отправить(btn)</button>
-    </form>
+        <div class="card">
+            <p>Мои навыки:</p>
+            <ul class="list">
+                <li>Рисовать</li>
+                <li>Тренироваться</li>
+            </ul>
+            <p>Мои черты:</p>
+            <ol class="list">
+                <li>Тихий</li>
+                <li>Спокойный</li>
+            </ol>
+        </div>
+
+
+        <div class="card">
+            <p>В данном курсе повышаю свои <strong>практические навыки</strong>, путем <em>большого количества
+                    работ</em>
+            </p>
+            <a href="https://vk.com/privetmint" target="_blank">VK</a>
+        </div>
+
+        <div class="card">
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>Название работы </th>
+                        <th>Должность</th>
+                        <th>Период работы</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Кротостроительсвто </td>
+                        <td>Главный крот</td>
+                        <td>2 года</td>
+                    </tr>
+                    <tr>
+                        <td>Градостроительство</td>
+                        <td>Главный град</td>
+                        <td>1 год</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="card">
+            <p>
+            <h2>Связаться со мной</h2>
+            </p>
+            <form action="server">
+                <div>
+                    <label for="text1">Ваше имя: </label>
+                    <input type="text" id="text1" placeholder="Введите имя">
+                </div>
+                <div>
+                    <label for="email1">Ваше email: </label>
+                    <input type="email" id="email1" placeholder="Введите email">
+                </div>
+                <div>
+                    <label for="message">Ваше сообщение: </label>
+                    <br>
+                    <textarea id="message"></textarea>
+                </div>
+
+                <input type="submit" value="Отправить">
+                <button type="submit">Отправить(btn)</button>
+            </form>
+        </div>
+
+        <div class="abtn">
+            <div class="abtn1">
+                <a href="#1" class="a1">Ссылка1</a>
+                <br>
+                <button class="btn">
+                    Кнопка1
+                </button>
+            </div>
+            <div class="abtn2">
+                <a href="#2" class="a2">Ссылка2</a>
+                <br>
+                <button class="btn">
+                    Кнопка2
+                </button>
+            </div>
+            <div class="abtn3">
+                <a href="#3" class="a3">Ссылка3</a>
+                <br>
+                <button class="btn">
+                    Кнопка3
+                </button>
+            </div>
+            <div class="abtn4">
+                <a href="#4" class="a4">Ссылка4</a>
+                <br>
+                <button class="btn">
+                    Кнопка4
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <ul class="list">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <table class="table">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+        </table>
+
+        <nav>
+            <ul>
+                <li>Link1</li>
+                <li>Link2</li>
+                <li>Link3</li>
+                <li>Link4</li>
+                <li>Link5</li>
+            </ul>
+        </nav>
+
+    </div>
+
 </body>
 
 </html>
